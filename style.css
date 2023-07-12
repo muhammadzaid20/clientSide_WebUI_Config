@@ -370,6 +370,10 @@ div#extras_scale_to_tab div.form{
     align-items: end;
 }
 
+[id^="setting_"] > div[style*="position: absolute"] {
+	display: none !important;
+}
+
 #quicksettings > div, #quicksettings > fieldset{
     max-width: 24em;
     min-width: 24em;
